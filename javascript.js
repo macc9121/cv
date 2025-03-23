@@ -134,6 +134,20 @@ const arr = [1, 2, ...[3,4]];
 
 const [a, b, ...others] = [1,2,3,4,5];
 
+//Objects remember order doesn't matter.
+
+const { sat, ...weekdays } = restaurant.openingHours;
+
+// Functions REST parameters or arguments it does the opposite of expand but collects into one array.
+
+const add = function (...numbers) {
+	console.log(numbers);
+	let sum = 0;
+	for(let i = 0; i < numbers.length; i++){
+		sum +=numbers[i];
+		}
+}
+
 
 	
 	
