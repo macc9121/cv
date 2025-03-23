@@ -110,6 +110,32 @@ btnNew.addEventListner('click', function() {
 		
 	}
 	
+	const arr = [7, 8, 9];
+	const badNewArr = [1, 2, arr[0], arr[1]];
+	//spread operator when add strings or showing string value.
+
+	const newArr = [1, 2, ...arr];
+	//create a shallow copy of an array
+	const mainMenuCopy = [...restaurant.mainMenu];
+	const menu = [...restaurant.mainMenu, ...restaurant.starterMenu];
+	
+	//spread operator works on all iterables not objects.
+
+const ingredients = [
+	prompt("Let's make pasta! Ingredient 1?"), prompt(Ingredient 2?"), prompt(Ingredient 3?"), 
+];
+
+console.log(ingredients);
+
+//SPREAD because on RIGHT side of the = operator
+const arr = [1, 2, ...[3,4]];
+
+// REST, because on LEFT side of =. takes the remaining items and puts into another array.
+
+const [a, b, ...others] = [1,2,3,4,5];
+
+
+	
 	
 	
 
